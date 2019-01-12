@@ -4,6 +4,11 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException {
+        System.out.println("Лабораторная работа №4\n"+
+                "Выполнил: ст. гр. ПЭ-171\n"+
+                "Осокин Р.М.\n"+
+                "Копирование файлов\n");
+        
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String way = reader.readLine();
         System.out.println("Введите путь к файлу, в который будет скопировано содержимое.");
